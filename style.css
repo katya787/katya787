@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #150C0C;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#EACEAA;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #34150F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigat_ssil{
+    text-decoration: none;
+    color:#EACEAA;
+    background-color: #34150F;
+    
+    
+}
+
+.navigat{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    background-color: #34150F
+}
+
+.he{
+    color:#EACEAA;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #34150F
+}
+
+.method{
+    margin: 50px;
+}
+
+.method__title{
+    color:#EACEAA;
+    justify-content: flex-start;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.method__subtitle{
+    font-size: 24px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+/* .item{
+    margin-bottom: 70px;
+} */
+
+.books__item{
+    width: 210px;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* height: 300px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.examples__img{
+    width: 65%;
+    height: 80%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D39858;
+    border-radius: 10%;
+}
+
+.examples__text{
+    text-align: center;
+}
+
+.divp{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* height: 300px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.divp__img{
+    width: 40%;
+    height: 10%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D39858;
+    border-radius: 10%;
+}
+
+.foot_div{
+    margin:70px;   
+}
+
+#footers{
+    background-color: #150C0C;
+}
